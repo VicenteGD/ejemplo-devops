@@ -10,6 +10,7 @@ on:
 
 #los jobs son trabajos a ejecutar:
 jobs:
+
   front-build:
     runs-on: ubuntu-latest
 
@@ -31,12 +32,8 @@ jobs:
 
       - name: Construir la aplicacion
         run: npm run build
-
-        
-
-
-
-
-
-
-
+#jobs:
+  #front-build:
+  #backend-build:
+  #frontend-test:
+  #backend-test:
