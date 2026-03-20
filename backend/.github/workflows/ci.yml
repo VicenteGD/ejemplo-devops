@@ -22,7 +22,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup node (instalar node)
-        uses: actions/Setup-node@v4
+        uses: actions/setup-node@v4
         with: 
           node-version: '20'
       
@@ -31,7 +31,7 @@ jobs:
 
       - name: Construir la aplicacion
         run: npm run build
-        
+
         
 
 
